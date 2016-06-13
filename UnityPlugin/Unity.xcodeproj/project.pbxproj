@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B7281241D0E8F54000C406B /* iOSUtils.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 6B7281231D0E8F54000C406B /* iOSUtils.h */; };
+		6B7281261D0E8F54000C406B /* iOSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7281251D0E8F54000C406B /* iOSUtils.m */; };
+		6B72813E1D0EABCC000C406B /* NativeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B72813D1D0EABCC000C406B /* NativeLogger.m */; };
+		6B7281401D0EACDB000C406B /* Unity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B72813F1D0EACDB000C406B /* Unity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6B72811E1D0E8F54000C406B /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				6B7281241D0E8F54000C406B /* iOSUtils.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6B7281201D0E8F54000C406B /* libUnity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUnity.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7281231D0E8F54000C406B /* iOSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSUtils.h; sourceTree = "<group>"; };
+		6B7281251D0E8F54000C406B /* iOSUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSUtils.m; sourceTree = "<group>"; };
+		6B72813C1D0EABCC000C406B /* NativeLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeLogger.h; sourceTree = "<group>"; };
+		6B72813D1D0EABCC000C406B /* NativeLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeLogger.m; sourceTree = "<group>"; };
+		6B72813F1D0EACDB000C406B /* Unity.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = Unity.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B72811D1D0E8F54000C406B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B7281171D0E8F54000C406B = {
+			isa = PBXGroup;
+			children = (
+				6B7281221D0E8F54000C406B /* Unity */,
+				6B7281211D0E8F54000C406B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B7281211D0E8F54000C406B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B7281201D0E8F54000C406B /* libUnity.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B7281221D0E8F54000C406B /* Unity */ = {
+			isa = PBXGroup;
+			children = (
+				6B7281231D0E8F54000C406B /* iOSUtils.h */,
+				6B7281251D0E8F54000C406B /* iOSUtils.m */,
+				6B72813F1D0EACDB000C406B /* Unity.m */,
+				6B72813C1D0EABCC000C406B /* NativeLogger.h */,
+				6B72813D1D0EABCC000C406B /* NativeLogger.m */,
+			);
+			path = Unity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B72811F1D0E8F54000C406B /* Unity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B7281291D0E8F54000C406B /* Build configuration list for PBXNativeTarget "Unity" */;
+			buildPhases = (
+				6B72811C1D0E8F54000C406B /* Sources */,
+				6B72811D1D0E8F54000C406B /* Frameworks */,
+				6B72811E1D0E8F54000C406B /* Copy Files */,
+				6B7281411D0EB373000C406B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unity;
+			productName = Unity;
+			productReference = 6B7281201D0E8F54000C406B /* libUnity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B7281181D0E8F54000C406B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = larryhou;
+				TargetAttributes = {
+					6B72811F1D0E8F54000C406B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B72811B1D0E8F54000C406B /* Build configuration list for PBXProject "Unity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B7281171D0E8F54000C406B;
+			productRefGroup = 6B7281211D0E8F54000C406B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B72811F1D0E8F54000C406B /* Unity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B7281411D0EB373000C406B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "md5 -r ${CODESIGNING_FOLDER_PATH}\ncp -fv ${CODESIGNING_FOLDER_PATH} ~/Documents/Unity3D/XcodePlugin/Assets/Plugins/iOS/\nfind ${SOURCE_ROOT} \\( -iname '*.h' -o -iname '*.m' \\) | xargs -I{} cp -fv {} ~/Documents/Unity3D/XcodePlugin/Assets/Plugins/iOS/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B72811C1D0E8F54000C406B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7281261D0E8F54000C406B /* iOSUtils.m in Sources */,
+				6B7281401D0EACDB000C406B /* Unity.m in Sources */,
+				6B72813E1D0EABCC000C406B /* NativeLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B7281271D0E8F54000C406B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B7281281D0E8F54000C406B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B72812A1D0E8F54000C406B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B72812B1D0E8F54000C406B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B72811B1D0E8F54000C406B /* Build configuration list for PBXProject "Unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B7281271D0E8F54000C406B /* Debug */,
+				6B7281281D0E8F54000C406B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B7281291D0E8F54000C406B /* Build configuration list for PBXNativeTarget "Unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B72812A1D0E8F54000C406B /* Debug */,
+				6B72812B1D0E8F54000C406B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B7281181D0E8F54000C406B /* Project object */;
+}
